@@ -3,16 +3,15 @@
     src: url(Billabong.ttf);
 }
 
-
-*{
+#brand_name_navbar{
     font-family: Billabong;
 }
 
-@font-face {
-    font-family: myFirstFont;
-    src: url(sansation_light.woff);
+#navbar_logo {
+    width:24px;
+    height:24px;
 }
 
-div {
-    font-family: myFirstFont;
+#search_bar{
+    float: center;
 }
