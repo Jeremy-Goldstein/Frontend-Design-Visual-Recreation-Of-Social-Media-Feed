@@ -1,0 +1,18 @@
+@font-face {
+    font-family: Billabong;
+    src: url(Billabong.ttf);
+}
+
+
+*{
+    font-family: Billabong;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(sansation_light.woff);
+}
+
+div {
+    font-family: myFirstFont;
+}
