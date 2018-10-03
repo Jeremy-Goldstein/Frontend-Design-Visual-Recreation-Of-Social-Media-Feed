@@ -5,6 +5,12 @@
 
 #brand_name_navbar{
     font-family: Billabong;
+    font-size: 25px;
+    color: black;
+}
+
+a:link, a:visited, a:hover, a:active{
+    text-decoration: none;
 }
 
 #navbar_logo {
@@ -14,4 +20,17 @@
 
 #search_bar{
     float: center;
+}
+
+.row{
+    height: 77px;
+}
+
+.navbar {
+      border-bottom: .1mm solid;
+    border-color: silver;
+}
+
+#login_signup_button{
+    float:right;
 }
