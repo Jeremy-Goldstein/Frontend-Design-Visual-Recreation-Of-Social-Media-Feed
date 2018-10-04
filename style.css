@@ -9,28 +9,52 @@
     color: black;
 }
 
-a:link, a:visited, a:hover, a:active{
-    text-decoration: none;
-}
-
 #navbar_logo {
     width:24px;
     height:24px;
+    border-right:.01mm solid;
+    padding-right: 5px;
+  
 }
 
 #search_bar{
     float: center;
+    text-align: center;
 }
 
-.row{
-    height: 77px;
-}
 
 .navbar {
-      border-bottom: .1mm solid;
+      border-bottom: .01mm solid;
     border-color: silver;
+    height: 77px;
+    background-color: white;
 }
 
-#login_signup_button{
-    float:right;
+a, a:link, a:visited, a:hover, a:active{
+    text-decoration: none;
+    color: black;
 }
+
+input[type=text]:focus, textarea:focus{
+    background-color: red;
+    color:red;
+    padding: 100px;
+}
+
+body{
+    background-color: #FAFAFA;
+    font-family: 'Proxima Nova';
+    font-size: 20px;
+}
+
+.feed_icon{
+    border-radius: 50%;
+    width: 10%;
+    height: 10%;
+}
+
+.feed_photo{
+    height: 100%;
+}
+
+
