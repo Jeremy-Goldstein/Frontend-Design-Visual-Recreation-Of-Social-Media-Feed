@@ -88,6 +88,7 @@ p.organizational {
     display: inline-block;
     margin-right: 2%;
     min-height: 50px;
+    vertical-align: top;
 }
 
 .feed_icon {
@@ -99,7 +100,7 @@ p.organizational {
 }
 
 #sidebar-right {
-    font-size: 14px;
+    font-size: 12px;
     line-height: 18px;
     margin: -3px 0 -4px;
     color: inherit;
@@ -107,7 +108,7 @@ p.organizational {
 }
 
 #sidebar-left {
-    font-size: 12px;
+    font-size: 14px;
     line-height: 14px;
     float: left;
 }
@@ -118,6 +119,7 @@ p.organizational {
 
 .user-info {
     display: inline-block;
+    margin-left: 8px;
 }
 
 .user-info-main {
@@ -130,4 +132,21 @@ p.organizational {
 .user-info-sub {
     display: block;
     font-size: 12px;
+}
+
+.story-block{
+    margin-bottom: 10px;
+}
+
+#all-stories{
+    height: 40%;
+    overflow-y: scroll;
+}
+
+#all-stories * .sidebar-icon{
+    border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    border: 2px outset #cc2b9c;
+    padding: 1px;
 }
