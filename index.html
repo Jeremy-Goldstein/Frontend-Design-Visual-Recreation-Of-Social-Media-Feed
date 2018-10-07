@@ -27,9 +27,8 @@
             </div>
 
             <div class="col">
-                <form class="form-inline">
-                    <input id="search_bar" class="form-control" type="search" placeholder="Search" aria-label="Search">
-                </form>
+                    <input id="top-search" type="text" placeholder="Search" aria-label="Search">
+                    <span id="search-icon"></span>
             </div>
 
             <div class="col">
@@ -112,18 +111,44 @@
                         </p>
                         <hr class="legal">
                         <section class="section">
-                                <form class="form">
-                                    <textarea class='textarea' aria-label="Add a comment…" placeholder="Add a comment…" class="Ypffh" autocomplete="off" autocorrect="off"></textarea>
-                                </form>
-                            </section>
+                            <form class="form">
+                                <textarea class='textarea' aria-label="Add a comment…" placeholder="Add a comment…" class="Ypffh" autocomplete="off" autocorrect="off"></textarea>
+                            </form>
+                        </section>
 
 
                     </div>
-                 
+
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <span class="legal sidebar-left">
+                            Suggestions For You
+                        </span>
+                        <span class="sidebar-right">
+                            <a href=# style="color: rgb(56, 151, 240) !important;">
+                                See All
+                            </a>
+                        </span>
+                    </div>
+                    <div>
+                        <div class="card suggestions">
+                            <div class="suggestion">
+                                <img class="sidebar-icon" src='feed_icon_1.jpg' alt=''>
+
+                                <span class="suggestion_account">Account 1
+                                    <span class="verified">sdf</span>
+                                </span>
+
+                                <p class="organizational" style="text-align: center;">Because you follow</p>
+                                <button class="follow-button">Follow</button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
 
-    
+
 
 
             <div class="col-3" id="sticky-sidebar">
@@ -142,10 +167,10 @@
                 </div>
                 <div>
                     <hr class="legal">
-                    <span class="legal" id="sidebar-left">
+                    <span class="legal sidebar-left">
                         Stories
                     </span>
-                    <span id="sidebar-right">
+                    <span class="sidebar-right">
                         <a href=#>
                             Watch All
                         </a>
@@ -232,7 +257,7 @@
                         </div>
                     </div>
                 </div>
-                <hr>
+                <hr class="legal">
                 <p class="legal">
                     <a href=#>
                         About Us • Support • Press • API • Jobs • Privacy • Terms • Directory • Profiles • Hashtags • Language
@@ -248,7 +273,7 @@
 
     </div>
 
-           
+
 
 
 
