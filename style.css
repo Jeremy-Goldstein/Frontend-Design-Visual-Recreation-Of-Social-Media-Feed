@@ -17,7 +17,6 @@
 }
 
 #search_bar {
-    float: center;
     text-align: center;
 }
 
@@ -37,8 +36,6 @@ a, a:link, a:visited, a:hover, a:active {
     background-image: url(https://www.instagram.com/static/bundles/base/sprite_core_2x.png/e561e90cfe41.png);
     background-position-x: -201px;
     background-position-y: -138px;
-    background-repeat-x: ;
-    background-repeat-y: ;
     background-size: 437px 386px;
     border-bottom-color: rgb(0, 0, 0);
     border-bottom-style: none;
@@ -60,7 +57,6 @@ a, a:link, a:visited, a:hover, a:active {
     display: block;
     font-family: -apple-system, system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     font-size: 14px;
-    font-stretch: 100%;
     font-style: normal;
     font-variant-caps: normal;
     font-variant-east-asian: normal;
@@ -87,8 +83,12 @@ a, a:link, a:visited, a:hover, a:active {
     -webkit-box-direction: normal;
 }
 
+#top-search:focus{
+    background: white;
+}
+
 #top-search {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(247, 247, 247);
     border-bottom-color: rgb(219, 219, 219);
     border-bottom-left-radius: 3px;
     border-bottom-right-radius: 3px;
@@ -116,7 +116,6 @@ a, a:link, a:visited, a:hover, a:active {
     display: block;
     font-family: -apple-system, system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     font-size: 16px;
-    font-stretch: 100%;
     font-style: normal;
     font-variant-caps: normal;
     font-variant-east-asian: normal;
@@ -191,8 +190,6 @@ p.organizational {
     background-origin: padding-box;
     background-position-x: 0px;
     background-position-y: 0px;
-    background-repeat-x: ;
-    background-repeat-y: ;
     background-size: auto;
     border-bottom-color: rgb(56, 151, 240);
     border-bottom-left-radius: 4px;
@@ -221,7 +218,6 @@ p.organizational {
     display: block;
     font-family: -apple-system, system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     font-size: 14px;
-    font-stretch: 100%;
     font-style: normal;
     font-variant-caps: normal;
     font-variant-east-asian: normal;
@@ -430,7 +426,6 @@ p.organizational {
     flex-shrink: 0;
     font-family: -apple-system, system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     font-size: 14px;
-    font-stretch: 100%;
     font-style: normal;
     font-variant-caps: normal;
     font-variant-east-asian: normal;
@@ -488,7 +483,6 @@ p.organizational {
     flex-grow: 1;
     font-family: -apple-system, system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     font-size: 14px;
-    font-stretch: 100%;
     font-style: normal;
     font-variant-caps: normal;
     font-variant-east-asian: normal;
@@ -527,4 +521,10 @@ p.organizational {
     -webkit-box-flex: 1;
     -webkit-rtl-ordering: logical;
     -webkit-border-image: none;
+}
+
+@media (max-width: 900px) {
+    #sticky-sidebar {
+        display: none;
+    }
 }
