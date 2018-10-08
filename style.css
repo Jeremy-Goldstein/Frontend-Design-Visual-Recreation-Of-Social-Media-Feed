@@ -246,7 +246,6 @@ p.organizational {
 
 .card {
     margin-bottom: 60px;
-    ;
 }
 
 .suggestions {
@@ -273,17 +272,12 @@ p.organizational {
     margin: 0px 0px 0px 0px;
     background-color: rgba(0, 0, 0, 0);
     background-origin: padding-box;
-    background-size: auto;
     border: none;
-    border-width: 0px;
     color: rgb(38, 38, 38);
-    flex-direction: column;
     font-family: -apple-system, system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     font-size: 14px;
     font-weight: 400;
     height: 18px;
     outline-style: none;
-    outline-width: 0px;
-    resize: none;
     width: 556px;
 }
