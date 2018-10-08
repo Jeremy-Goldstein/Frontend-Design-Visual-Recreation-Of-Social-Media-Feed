@@ -248,8 +248,13 @@ p.organizational {
     margin-bottom: 60px;
 }
 
-.suggestions {
-    max-width: 200px;
+
+
+.suggestion{
+    margin-right:14px;
+    margin-left: 14px;
+    display: inline-block;
+    padding: 10px;
 }
 
 .suggestion>* {
