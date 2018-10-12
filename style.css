@@ -133,12 +133,18 @@ p.organizational {
     max-width: 614px;
 }
 
-@media only screen and (max-width: 1200px){
-    #feed{
+@media only screen and (max-width: 1200px) {
+    #feed {
         margin: auto;
     }
     .card-img-top {
         max-height: 500px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar-small {
+        max-width: 150px !important;
     }
 }
 
@@ -313,9 +319,14 @@ p.organizational {
     background-position-y: -336px;
 }
 
-
-.suggestions{
+.suggestions {
     overflow-x: auto;
     display: flex;
     max-height: 400px;
+}
+
+.top-icons {
+    overflow-x: hidden;
+    display: flex;
+    max-height: 100px;
 }
