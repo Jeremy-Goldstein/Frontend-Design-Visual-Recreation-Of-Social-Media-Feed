@@ -137,8 +137,8 @@ p.organizational {
     #feed{
         margin: auto;
     }
-    #img{
-        height: 550px;
+    .card-img-top {
+        max-height: 500px;
     }
 }
 
@@ -275,7 +275,7 @@ p.organizational {
     font-weight: 400;
     height: 18px;
     outline-style: none;
-    width: 556px;
+    width: 100%;
     resize: none;
 }
 
