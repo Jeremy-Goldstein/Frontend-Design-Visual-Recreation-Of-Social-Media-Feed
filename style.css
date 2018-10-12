@@ -71,14 +71,13 @@ a, a:link, a:visited, a:hover, a:active {
     border-top-style: solid;
     border-top-width: 1px;
     box-sizing: border-box;
-    font-family: -apple-system, system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     outline-style: none;
     padding-left: 26px;
 }
 
 body {
     background-color: #FAFAFA;
-    font-family: 'Proxima Nova';
+    font-family: 'Proxima Nova', sans-serif;
     font-size: 80%;
 }
 
@@ -94,7 +93,6 @@ p, strong {
 }
 
 .suggestion_account {
-    font-family: "Proxima Nova";
     font-size: 16px;
     font-weight: 700;
 }
@@ -102,7 +100,6 @@ p, strong {
 p.organizational {
     color: #999;
     font-size: 70%;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
 
 .follow-button {
@@ -110,7 +107,6 @@ p.organizational {
     border-radius: 4px;
     color: rgb(255, 255, 255);
     cursor: pointer;
-    font-family: -apple-system, system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     font-size: 14px;
     font-weight: 600;
     height: 30px;
@@ -164,7 +160,6 @@ p.organizational {
     color: inherit;
     float: right;
     font-weight: 600;
-    font-family: -apple-system, system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
 
 .sidebar-left {
@@ -172,7 +167,6 @@ p.organizational {
     line-height: 14px;
     float: left;
     font-weight: 500;
-    font-family: -apple-system, system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
 
 .card-body-top {
@@ -261,26 +255,49 @@ p.organizational {
     margin: auto;
 }
 
-.verified {
-    background-image: url(https://www.instagram.com/static/bundles/base/sprite_core_2x.png/e561e90cfe41.png);
-    background-position-x: -250px;
-    background-position-y: -254px;
-    background-size: 437px 386px;
-    height: 18px;
-    width: 18px;
-    display: inline-block;
-}
-
 .textarea {
     margin: 0px 0px 0px 0px;
     background-color: rgba(0, 0, 0, 0);
     background-origin: padding-box;
     border: none;
     color: rgb(38, 38, 38);
-    font-family: -apple-system, system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     font-size: 14px;
     font-weight: 400;
     height: 18px;
     outline-style: none;
     width: 556px;
+    resize: none;
+}
+
+.sprite {
+    display: inline-block;
+    background-image: url(https://www.instagram.com/static/bundles/base/sprite_core_2x.png/e561e90cfe41.png);
+    background-size: 437px 386px;
+}
+
+.nav-sprite {
+    height: 24px;
+    width: 24px;
+}
+
+.verified {
+    background-position-x: -250px;
+    background-position-y: -254px;
+    height: 18px;
+    width: 18px;
+}
+
+.explore {
+    background-position-x: -363px;
+    background-position-y: -303px;
+}
+
+.activity {
+    background-position-x: -247px;
+    background-position-y: -149px;
+}
+
+.profile {
+    background-position-x: -229px;
+    background-position-y: -336px;
 }
