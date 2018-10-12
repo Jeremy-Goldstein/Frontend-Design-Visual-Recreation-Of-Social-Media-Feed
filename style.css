@@ -93,7 +93,7 @@ p, strong {
 }
 
 .suggestion_account {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 700;
 }
 
@@ -132,6 +132,14 @@ p.organizational {
 #feed {
     max-width: 614px;
 }
+
+@media only screen and (max-width: 1200px){
+    #feed{
+        margin: auto;
+    }
+}
+
+
 
 .sidebar-icon {
     width: 100%;
