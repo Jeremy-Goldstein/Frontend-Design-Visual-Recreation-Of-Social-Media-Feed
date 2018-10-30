@@ -1,4 +1,4 @@
-A near-replica visual represenation of Instagram using HTML, CSS, and Boostrap.
+A near-replica visual representation of the Instagram feed for logged in users using HTML, CSS, and Boostrap.
 
 This page has responsive behavior, where on smaller screens the content adjusts.
 
