@@ -2,5 +2,5 @@ A near-replica visual representation of the Instagram feed for logged in users u
 
 This page has responsive behavior, where on smaller screens the content adjusts.
 
-https://wustlcse204.github.io/05-instagram-clone-Jeremy-Goldstein/
+https://wustlcse204.github.io/instagram-visual-clone/
 
