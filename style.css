@@ -34,6 +34,7 @@
 a, a:link, a:visited, a:hover, a:active {
     text-decoration: none;
     color: inherit;
+    cursor: pointer;
 }
 
 #search-icon {
@@ -44,7 +45,7 @@ a, a:link, a:visited, a:hover, a:active {
     height: 10px;
     width: 10px;
     position: absolute;
-    top: 10px;
+    top: 7px;
     left: 20px;
 }
 
@@ -168,6 +169,7 @@ p.organizational {
     margin-right: 1%;
     width: 30px;
     height: 30px;
+    margin-top: -1%;
 }
 
 .sidebar-right {
